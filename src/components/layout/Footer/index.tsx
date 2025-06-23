@@ -80,17 +80,7 @@ const Footer = () => {
                 We have clothes that suits your style and which you’re proud to
                 wear. From women to men.
               </p>
-              <div className="flex items-center">
-                {socialsData.map((social) => (
-                  <Link
-                    href={social.url}
-                    key={social.id}
-                    className="bg-white hover:bg-black hover:text-white transition-all mr-3 w-7 h-7 rounded-full border border-black/20 flex items-center justify-center p-1.5"
-                  >
-                    {social.icon}
-                  </Link>
-                ))}
-              </div>
+           
             </div>
             <div className="hidden lg:grid col-span-9 lg:grid-cols-4 lg:pl-10">
               <LinksSection />
